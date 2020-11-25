@@ -1,1 +1,1 @@
-alert("Webpack check");
+(()=>{let e=document.querySelector("#tab1"),t=document.querySelector("#page1"),c=document.querySelector("#tab2"),d=document.querySelector("#page2");e.addEventListener("click",(()=>{t.style.zIndex="3",d.style.zIndex="1"})),c.addEventListener("click",(()=>{t.style.zIndex="1",d.style.zIndex="3"}))})();
