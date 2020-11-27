@@ -1,3 +1,16 @@
+body{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0a/97/8a/95/miller-s-bayou.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+   width: 30%;
+   margin: auto;
+   text-align: center;
+}
+
 div {
     border: 1px solid black;
 }
@@ -13,39 +26,15 @@ div {
 
 #tabs {
     height: 100px;
-    width: 100%;
-    margin: none;
+    width: 50%;
+    margin: auto;
     border: 1px solid blue;
     display: flex;
     justify-content: space-evenly;
 }
 
-#pages{
-    height: 900px;
-    width: 100%;
-}
-
-.tab {
-    flex-grow: 1;
-}
-
-.page{
-    position: absolute;
-    width: 942.5px;
-    height: 900px;
-    margin: none;
-    border: none;
-    padding: none;
-}
-
-#page1{
-    background-color: blue;
-}
-
-#page2{
-    background-color: chartreuse;
-}
-
-#page3{
-    background-color: crimson;
+.tab{
+    text-align: center;
+    line-height: 100px;
+    width: 27%;
 }
